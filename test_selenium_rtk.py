@@ -599,7 +599,7 @@ def test_phone_recovery_key_web():
 
 # Проверка успешной регистрации
 # Проверяем ЕЛК Web
-def test_phone_registration_elk_web():
+def test_registration_elk_web():
     registration_elk_web(0)
     # Проверяем, что мы оказались на странице с подтверждением email
     assert pytest.driver.find_element(
